@@ -1,0 +1,64 @@
+/* ===============================
+   Author: Sandi Cook
+   Date: Sept 21 2015
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+
+
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+}
+th {
+    text-align: center;
+}
+
+h1 {
+   text-align: center;
+}
+
+/*  text-align: center;
+  font-size: 10px;
+  font color: #CC00FF;
+}
+*/
+img {
+  width: 50px;  
+}
+
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
